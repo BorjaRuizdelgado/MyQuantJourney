@@ -35,13 +35,13 @@ pip install pandas numpy scipy statsmodels matplotlib seaborn ta-lib backtrader
 - [X] Calculate **rolling mean**, **rolling standard deviation**, and **Bollinger Bands**.
 - [X] **Handling Missing Data**: Use methods like `.fillna()`, `.dropna()`, and interpolation to handle missing stock data.
 - [X] Explain what **correlation** is and perform a **correlation analysis** between multiple assets.
-- [ ] **DateTime Indexing**: Convert stock data to a **datetime index** and perform operations like resampling to monthly or weekly frequency.
-- [ ] **Resampling**: Resample daily stock data to monthly or quarterly frequency using `.resample()` and perform aggregation.
+- [X] **DateTime Indexing**: Convert stock data to a **datetime index** and perform operations like resampling to monthly or weekly frequency.
+- [X] **Resampling**: Resample daily stock data to monthly or quarterly frequency using `.resample()` and perform aggregation.
 
-- [ ] **Advanced Indexing with Pandas**: Explore **multi-level indexing** and **loc, iloc** to access specific time periods or stock data.
-- [ ] **Cumulative Sum and Product**: Use `.cumsum()` for cumulative returns, and `.cumprod()` for calculating the cumulative product (e.g., compounded returns).
-- [ ] **Rolling Sharpe Ratio**: Implement a rolling Sharpe ratio calculation for performance evaluation.
-- [ ] **Drawdowns, and maximum drawdown**: Calculate and plot the drawdowns for a certain stock and the maximum drawdonw the stock experienced.
+- [X] **Advanced Indexing with Pandas**: Explore **multi-level indexing** and **loc, iloc** to access specific time periods or stock data.
+- [X] **Cumulative Sum and Product**: Use `.cumsum()` for cumulative returns, and `.cumprod()` for calculating the cumulative product (e.g., compounded returns).
+- [X] **Rolling Sharpe Ratio**: Implement a rolling Sharpe ratio calculation for performance evaluation.
+- [X] **Drawdowns, and maximum drawdown**: Calculate and plot the drawdowns for a certain stock and the maximum drawdonw the stock experienced.
 
 ---
 
