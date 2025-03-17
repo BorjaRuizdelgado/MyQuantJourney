@@ -1,110 +1,104 @@
-# My Quantitative Finance Learning Path
+# 📈 Quantitative Finance Learning Path
 
-## Introduction
-This repository is my learning roadmap to becoming a quantitative dev by leveraging Python skills in financial data analysis, statistics, and algorithmic trading.
-
-## Learning Roadmap
-
-### **1. Mastering Pandas & NumPy for Financial Data**
-#### 📌 Exercise: Stock Data Cleaning & Feature Engineering
-#### 🔍 Goal: Learn how to manipulate time-series stock data efficiently.
-
-#### **Tasks:**
-- Download stock data using `yfinance`.
-- Compute daily & monthly returns.
-- Implement rolling statistics (moving average, volatility).
-- Handle missing data.
-- Compute correlation between stocks.
-
-#### **Resources:**
-- [Pandas Official Documentation](https://pandas.pydata.org/docs/)
-- [Python for Data Analysis](https://wesmckinney.com/book/)
-- [Kaggle Pandas Tutorial](https://www.kaggle.com/learn/pandas)
+Welcome to your personal roadmap for mastering **Quantitative Finance** using Python! This guide is designed to help you transition into a quant role by strengthening your technical skills, building financial models, and gaining hands-on experience.
 
 ---
 
-### **2. Statistical Analysis with SciPy & Statsmodels**
-#### 📌 Exercise: Detecting Mean-Reverting Stocks
-#### 🔍 Goal: Use statistical tests to identify mean-reverting assets.
+## 🚀 1. Strengthen Python for Quantitative Finance
+### 🔥 Focus Areas:
+- **Pandas & NumPy**: Advanced indexing, vectorized operations, rolling statistics.
+- **SciPy & Statsmodels**: Probability distributions, hypothesis testing, regression models.
+- **Matplotlib & Seaborn**: Data visualization techniques tailored for financial data.
+- **TA-Lib & Backtrader**: Technical analysis and backtesting libraries.
+- **Vectorized Backtesting** with NumPy/Pandas: Efficient strategy testing.
 
-#### **Tasks:**
-- Understand mean reversion and stationarity.
-- Conduct an **Augmented Dickey-Fuller (ADF) test**.
-- Identify cointegrated stock pairs using Engle-Granger test.
-- Implement OLS regression for factor exposure.
-
-#### **Resources:**
-- [Statsmodels Documentation](https://www.statsmodels.org/stable/index.html)
-- [QuantStart: ADF Test for Mean Reversion](https://www.quantstart.com/articles/Basics-of-Statistical-Mean-Reversion-Testing/)
-- *Quantitative Trading* by Ernest Chan
+### 📚 Resources:
+- *Python for Data Analysis* – Wes McKinney
+- *Advances in Financial Machine Learning* – Marcos López de Prado (Ch. 1-4 for pandas-based techniques)
 
 ---
 
-### **3. Data Visualization with Matplotlib & Seaborn**
-#### 📌 Exercise: Visualizing Market Trends
-#### 🔍 Goal: Create effective plots for financial data analysis.
+## 📊 2. Build Mathematical & Statistical Foundations
+### 🔥 Key Topics:
+- **Probability & Statistics**: Bayes’ theorem, Monte Carlo simulations, hypothesis testing.
+- **Linear Algebra**: Eigenvalues, matrix decomposition (SVD, PCA for factor models).
+- **Optimization**: Convex optimization, gradient descent (important for portfolio optimization).
+- **Stochastic Calculus**: Ito’s Lemma, Brownian motion (needed for options pricing).
 
-#### **Tasks:**
-- Plot time-series stock data.
-- Implement moving average visualization.
-- Create heatmaps to analyze stock correlations.
-- Plot return distributions using histograms & KDE.
-
-#### **Resources:**
-- [Matplotlib Guide](https://matplotlib.org/stable/tutorials/introductory/pyplot.html)
-- [Seaborn Tutorial](https://seaborn.pydata.org/tutorial.html)
+### 📚 Resources:
+- *Introduction to Statistical Learning* – Gareth James et al.
+- *Mathematics for Machine Learning* – Deisenroth, Faisal, Ong
+- [Khan Academy](https://www.khanacademy.org/) (Probability, Linear Algebra)
 
 ---
 
-### **4. Backtesting with TA-Lib & Backtrader**
-#### 📌 Exercise: Backtesting a Simple RSI Strategy
-#### 🔍 Goal: Implement and test a **technical trading strategy**.
+## 📉 3. Develop Financial Modeling & Quant Strategies
+### 🔥 Key Topics:
+- **Time Series Analysis**: ARIMA, GARCH, Kalman Filters.
+- **Portfolio Theory**: Modern Portfolio Theory (MPT), CAPM, factor models.
+- **Options & Derivatives Pricing**: Black-Scholes, binomial models, Greeks.
+- **High-Frequency Trading Concepts**: Market microstructure, order book dynamics.
 
-#### **Tasks:**
-- Compute RSI using `TA-Lib`.
-- Define trading rules (RSI < 30 Buy, RSI > 70 Sell).
-- Implement strategy in `Backtrader`.
-- Evaluate performance using Sharpe ratio and max drawdown.
+### 🛠️ Projects to Build:
+✅ Implement a **pairs trading** strategy.  
+✅ Develop a **mean-reverting** or **momentum** strategy.  
+✅ Build a **volatility forecasting model** using GARCH.
 
-#### **Resources:**
-- [Backtrader Documentation](https://www.backtrader.com/docu/)
-- [TA-Lib Indicators Guide](https://mrjbq7.github.io/ta-lib/)
-- *Algorithmic Trading* by Ernest Chan
-
----
-
-### **5. Vectorized Backtesting with Pandas & NumPy**
-#### 📌 Exercise: Building a Vectorized Momentum Strategy
-#### 🔍 Goal: Develop a **fast, loop-free backtesting system**.
-
-#### **Tasks:**
-- Use `np.where()` to generate trading signals.
-- Compute log returns efficiently.
-- Implement portfolio performance metrics (Sharpe Ratio, Max Drawdown).
-
-#### **Resources:**
-- [Fast Vectorized Backtesting](https://www.quantstart.com/articles/Vectorised-Backtesting-in-Pandas/)
-- *Advances in Financial Machine Learning* by López de Prado
+### 📚 Resources:
+- *Quantitative Finance for Dummies* – Steve Bell
+- *Quantitative Trading* – Ernest Chan
 
 ---
 
-## **Final Capstone Project: Full Quant Trading Strategy**
-### 📌 Goal: Develop a full **quantitative trading system**, including:
-1. **Strategy Design** – Define entry/exit rules.
-2. **Backtesting** – Use vectorized or `Backtrader`.
-3. **Performance Evaluation** – Sharpe ratio, max drawdown.
-4. **Optimization** – Test different parameter settings.
+## 🤖 4. Machine Learning & AI for Quantitative Trading
+### 🔥 Key Topics:
+- **Supervised Learning**: Regression models for factor investing.
+- **Unsupervised Learning**: Clustering for regime detection, PCA for dimensionality reduction.
+- **Deep Learning**: LSTMs for time series forecasting (optional, but useful).
+- **Reinforcement Learning**: AlphaZero-style trading strategies (advanced).
 
-### 📌 **Bonus Task:** Paper Trading
-- Deploy your strategy on `Interactive Brokers` or `Alpaca`.
+### 📚 Resources:
+- *Machine Learning for Asset Managers* – Marcos López de Prado
+- Hands-on tutorials: [fastai](https://www.fast.ai/), [scikit-learn](https://scikit-learn.org/)
 
-#### **Resources:**
+---
+
+## 💾 5. Learn SQL & Big Data Processing
+### 🔥 Key Topics:
+- **SQL**: Querying financial databases (Bloomberg, Quandl, WRDS).
+- **Big Data**: Apache Spark, Dask for large-scale data processing.
+
+---
+
+## 🔥 6. Get Hands-On Experience
+### 🏆 Practical Steps:
+- **Kaggle Competitions**: Participate in financial forecasting challenges.
+- **Build a GitHub Portfolio**: Open-source quant projects.
+- **Internships & Proprietary Trading Firms**: Get real-world exposure.
+
+---
+
+## 📉 7. Learn Risk Management & Execution
+### 🔥 Key Topics:
+- **Risk Models**: Value at Risk (VaR), Expected Shortfall, stress testing.
+- **Execution Strategies**: VWAP, TWAP, market impact models.
+
+---
+
+## 🏁 Final Step: Develop a Full Quant Trading Strategy
+### ✅ Capstone Project:
+- **Strategy Design** – Define entry/exit rules.
+- **Backtesting** – Use vectorized or `Backtrader`.
+- **Performance Evaluation** – Sharpe ratio, max drawdown.
+- **Optimization** – Test different parameter settings.
+
+### 🔗 Resources:
 - [QuantConnect](https://www.quantconnect.com/)
 - [Alpaca API](https://alpaca.markets/docs/)
 
 ---
 
-## **Weekly Plan**
+## 📅 Weekly Plan
 | Week | Focus |
 |------|-----------------------------------|
 | 1-2  | Pandas, NumPy for financial data |
@@ -114,5 +108,5 @@ This repository is my learning roadmap to becoming a quantitative dev by leverag
 
 ---
 
-
+🚀 **Let’s build your quant skills!** 🚀
 
